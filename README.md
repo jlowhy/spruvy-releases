@@ -19,7 +19,7 @@ Releases include checksums and an Ed25519-signed `nightly-manifest.json`. A chec
 
 ## Update Spruvy
 
-Install nightly 45 or later manually once. These Mac builds check for signed updates on startup and periodically while open. When an update is available, open **Settings > Software** and choose **Update and restart**. Spruvy downloads and verifies the archive, waits for active local work, replaces the app, and reopens it. Saved data and pairing are preserved. The selected remote host is updated separately.
+Install nightly 47 or later manually once. These Mac builds check for signed updates on startup and periodically while open. When an update is available, open **Settings > Software** and choose **Update and restart**. Spruvy downloads and verifies the archive, waits for active local work, replaces the app, and reopens it. Saved data and pairing are preserved. The selected remote host is updated separately.
 
 For a managed Linux host, follow the included installation guide. The local owner can allow paired clients to request updates with `spruvy-host-internal remote-updates enable` while the host is running. Then use **Settings > Host** in a connected client to check and confirm a nightly update.
 
