@@ -2,7 +2,7 @@
 
 Download Spruvy for Apple Silicon macOS and the Linux x64 host from [Releases](https://github.com/jlowhy/spruvy-releases/releases).
 
-This repository contains public release files and installation instructions. Spruvy's development repository is private. Release files contain the application code and may be inspected and redistributed subject to their bundled license notices.
+This repository contains public release files and installation instructions. Spruvy's development repository is private. Release files contain readable application code and bundled third-party license notices.
 
 ## Install on a Mac
 
