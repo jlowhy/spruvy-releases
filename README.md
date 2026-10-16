@@ -1,6 +1,13 @@
 # Spruvy releases
 
-Download Spruvy for Apple Silicon macOS and the Linux x64 host from [Releases](https://github.com/jlowhy/spruvy-releases/releases).
+Download the recommended build, **nightly 47**:
+
+| Platform | Download |
+| --- | --- |
+| Mac · Apple Silicon · macOS 13+ | [Download Mac app](https://github.com/jlowhy/spruvy-releases/releases/download/v0.0.1-nightly.20261016.47/Spruvy-0.0.1-nightly.20261016.47-macos-arm64.zip) · [Checksum](https://github.com/jlowhy/spruvy-releases/releases/download/v0.0.1-nightly.20261016.47/Spruvy-0.0.1-nightly.20261016.47-macos-arm64.zip.sha256) |
+| Linux / WSL · x64 | [Download host](https://github.com/jlowhy/spruvy-releases/releases/download/v0.0.1-nightly.20261016.47/spruvy-host-internal-linux-x64-0.0.1-nightly.20261016.47.tar.gz) · [Checksum](https://github.com/jlowhy/spruvy-releases/releases/download/v0.0.1-nightly.20261016.47/spruvy-host-internal-linux-x64-0.0.1-nightly.20261016.47.tar.gz.sha256) |
+
+[All releases and verification files](https://github.com/jlowhy/spruvy-releases/releases).
 
 This repository contains public release files and installation instructions. Spruvy's development repository is private. Release files contain readable application code and bundled third-party license notices.
 
@@ -11,7 +18,7 @@ This repository contains public release files and installation instructions. Spr
 3. If replacing an older Spruvy, finish local work. If this Mac is the selected host, choose **Stop host** in **Settings > Host** before quitting. Then quit Spruvy, extract the ZIP, and drag `Spruvy.app` into Applications. Replacement preserves its saved data.
 4. Open Spruvy. These personal builds are ad hoc signed and are not notarized. If macOS blocks opening, use System Settings > Privacy & Security > Open Anyway for the app you downloaded here.
 
-Each archive includes installation instructions and third-party license notices. Linux host archives include their own manager and bundled Node runtime. Phone installation is separate; the nightly workflow's iOS Simulator check does not produce an installable iPhone app.
+Each archive includes installation instructions and third-party license notices. Linux host archives include their own manager and bundled Node runtime. Phone installation is separate; these downloads contain no iOS app.
 
 ## Verify updates
 
