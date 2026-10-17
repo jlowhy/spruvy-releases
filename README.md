@@ -1,11 +1,11 @@
 # Spruvy releases
 
-Download the recommended build, **nightly 47**:
+Download the recommended build, **nightly 48**:
 
 | Platform | Download |
 | --- | --- |
-| Mac · Apple Silicon · macOS 13+ | [Download Mac app](https://github.com/jlowhy/spruvy-releases/releases/download/v0.0.1-nightly.20261016.47/Spruvy-0.0.1-nightly.20261016.47-macos-arm64.zip) · [Checksum](https://github.com/jlowhy/spruvy-releases/releases/download/v0.0.1-nightly.20261016.47/Spruvy-0.0.1-nightly.20261016.47-macos-arm64.zip.sha256) |
-| Linux / WSL · x64 | [Download host](https://github.com/jlowhy/spruvy-releases/releases/download/v0.0.1-nightly.20261016.47/spruvy-host-internal-linux-x64-0.0.1-nightly.20261016.47.tar.gz) · [Checksum](https://github.com/jlowhy/spruvy-releases/releases/download/v0.0.1-nightly.20261016.47/spruvy-host-internal-linux-x64-0.0.1-nightly.20261016.47.tar.gz.sha256) |
+| Mac · Apple Silicon · macOS 13+ | [Download Mac app](https://github.com/jlowhy/spruvy-releases/releases/download/v0.0.1-nightly.20261017.48/Spruvy-0.0.1-nightly.20261017.48-macos-arm64.zip) · [Checksum](https://github.com/jlowhy/spruvy-releases/releases/download/v0.0.1-nightly.20261017.48/Spruvy-0.0.1-nightly.20261017.48-macos-arm64.zip.sha256) |
+| Linux / WSL · x64 | [Download host](https://github.com/jlowhy/spruvy-releases/releases/download/v0.0.1-nightly.20261017.48/spruvy-host-internal-linux-x64-0.0.1-nightly.20261017.48.tar.gz) · [Checksum](https://github.com/jlowhy/spruvy-releases/releases/download/v0.0.1-nightly.20261017.48/spruvy-host-internal-linux-x64-0.0.1-nightly.20261017.48.tar.gz.sha256) |
 
 [All releases and verification files](https://github.com/jlowhy/spruvy-releases/releases).
 
@@ -26,7 +26,7 @@ Releases include checksums and an Ed25519-signed `nightly-manifest.json`. A chec
 
 ## Update Spruvy
 
-Install nightly 47 or later manually once. These Mac builds check for signed updates on startup and periodically while open. When an update is available, open **Settings > Software** and choose **Update and restart**. Spruvy downloads and verifies the archive, waits for active local work, replaces the app, and reopens it. Saved data and pairing are preserved. The selected remote host is updated separately.
+Install nightly 48 or later manually once. These Mac builds check for signed updates on startup and periodically while open. When an update is available, open **Settings > Software** and choose **Update and restart**. Spruvy downloads and verifies the archive, waits for active local work, replaces the app, and reopens it. Saved data and pairing are preserved. The selected remote host is updated separately.
 
 For a managed Linux host, follow the included installation guide. The local owner can allow paired clients to request updates with `spruvy-host-internal remote-updates enable` while the host is running. Then use **Settings > Host** in a connected client to check and confirm a nightly update.
 
